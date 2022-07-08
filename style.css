@@ -182,15 +182,24 @@
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 991px) {
     .titleBox h2 {
         font-size: 40px;
         letter-spacing: 0.36px;
         text-align: left !important;
     }
+    .titleBox h2 {
+        margin-bottom: 28px;
+    }
+    .titleBox {
+        margin-bottom: 40px;
+    }
 
     .sectionProposito p {
         text-align: left !important;
+    }
+    .sectionProposito .item p {
+        text-align: center !important;
     }
 
     .listProductBox h2 {
