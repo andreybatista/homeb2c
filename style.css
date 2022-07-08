@@ -1,0 +1,216 @@
+.banner-principal {
+    object-fit: cover;
+    object-position: center;
+}
+
+.sectionProposito {
+    background: #E8630B;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.titleBox {
+    width: 674px;
+    margin-bottom: 58px;
+}
+
+.titleBox h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+}
+
+.titleBox p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+.sectionProposito h3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin-top: 36px;
+    margin-bottom: 17px;
+}
+
+.listProductBox .boxList {
+    width: 80%;
+}
+
+.sectionProposito p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.listProductBox span {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.36px;
+    color: #272727;
+}
+
+.listProductBox h2 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.36px;
+    color: #272727;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.listProductBox h2.primaryColor {
+    color: #105498;
+}
+
+.listProductBox p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.36px;
+    color: #272727;
+}
+
+.listProductBox ul li p strong {
+    font-weight: 500;
+}
+
+.listProductBox ul {
+    margin: 0;
+    padding: 0;
+}
+
+.listProductBox ul li {
+    list-style: none;
+}
+
+.rowPriceBtnCart .boxPrice {
+    margin-right: 50px;
+}
+
+.rowPriceBtnCart .boxPrice p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.36px;
+    color: #105498;
+}
+
+.rowPriceBtnCart .boxPrice p span {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #105498;
+}
+
+.rowPriceBtnCart .btn-addCart a {
+    background: #105498;
+    border-radius: 18px;
+    padding: 14px 42px;
+    cursor: pointer;
+}
+
+.rowPriceBtnCart .btn-addCart p span {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.36px;
+    color: #FFFFFF;
+    margin-left: 14px;
+}
+
+.containerBackgroundPrimaryColor {
+    background-color: #105498;
+}
+
+.containerBackgroundPrimaryColor h2,
+.containerBackgroundPrimaryColor p,
+.containerBackgroundPrimaryColor span,
+.containerBackgroundPrimaryColor strong,
+.containerBackgroundPrimaryColor .rowPriceBtnCart .boxPrice p,
+.containerBackgroundPrimaryColor .rowPriceBtnCart .boxPrice p span {
+    color: #fff;
+}
+
+.containerBackgroundPrimaryColor .rowPriceBtnCart .btn-addCart a {
+    background-color: #fff;
+}
+
+.containerBackgroundPrimaryColor .listProductBox .rowPriceBtnCart .btn-addCart a p,
+.containerBackgroundPrimaryColor .listProductBox .rowPriceBtnCart .btn-addCart a p span {
+    color: #105498;
+}
+
+@media(max-width: 1200px) {
+    .listProductBox .boxList {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .titleBox h2 {
+        font-size: 40px;
+        letter-spacing: 0.36px;
+        text-align: left !important;
+    }
+
+    .sectionProposito p {
+        text-align: left !important;
+    }
+
+    .listProductBox h2 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 500px) {
+    .rowPriceBtnCart {
+        flex-direction: column;
+    }
+
+    .rowPriceBtnCart .boxPrice {
+        margin: 20px 0;
+    }
+
+    .rowPriceBtnCart .btn-addCart a {
+        padding: 14px 0px;
+        text-align: center;
+        display: flex !important;
+        justify-content: center;
+    }
+}
